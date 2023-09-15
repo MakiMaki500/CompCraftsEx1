@@ -70,8 +70,23 @@ public class CompCraftsEx1 {
         
         //rectangle with alternating shapes per row
         else if(choice.equalsIgnoreCase("c")){
-        
-            //put answer here
+
+            System.out.println("Enter the number of rows: ");
+            int altRectRow = Integer.parseInt(sc.nextLine());
+            System.out.println("Enter the number of columns: ");
+            int altRectCol = Integer.parseInt(sc.nextLine());
+            
+            for(int i=1;i<=altRectRow;i++){
+                for(int j=1;j<=altRectCol;j++){
+                    
+                    if(i%2==0){
+                    System.out.print("O");
+                    } else {
+                    System.out.print("U");  
+                    }
+                }
+                System.out.print("\n");
+            }
             
         }
         
