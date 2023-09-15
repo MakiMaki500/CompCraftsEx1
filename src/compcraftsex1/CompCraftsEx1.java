@@ -111,15 +111,15 @@ public class CompCraftsEx1 {
                 for(int j=1;j<=altRectCol;j++){
                     if(i%2==0){
                         if(j%2==0){
-                            System.out.print("O");
+                            System.out.print("P");
                         } else {
-                            System.out.print("U");  
+                            System.out.print("d");  
                         }
                     } else if (i%2==1){
                         if (j%2==1){
-                            System.out.print("O");  
+                            System.out.print("P");  
                         } else {
-                            System.out.print("U");  
+                            System.out.print("d");  
                         }
                     } 
                 }
