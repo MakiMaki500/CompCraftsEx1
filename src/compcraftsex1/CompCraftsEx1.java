@@ -35,7 +35,18 @@ public class CompCraftsEx1 {
         //Right triangle 
         if(choice.equalsIgnoreCase("a")){
         
-            //put answer here
+            int rTRows = 0;
+            
+            System.out.println("Enter the number of rows: ");
+            rTRows = Integer.parseInt(sc.nextLine());
+            
+            
+            for(int i=0;i<=rTRows;i++){
+                for(int j=0; j<i;j++){
+                    System.out.print("o");
+                }
+                System.out.printf("%n");
+            }
         }
         
         //inverted right triangle
