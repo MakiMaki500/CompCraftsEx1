@@ -52,7 +52,18 @@ public class CompCraftsEx1 {
         //inverted right triangle
         else if(choice.equalsIgnoreCase("b")){
             
-            //put answer here
+            int iRTRows = 0;
+            
+            System.out.println("Enter the number of rows: ");
+            iRTRows = Integer.parseInt(sc.nextLine());
+            
+            
+            for(int i=iRTRows;i>0;i--){
+                for(int j=i; j>0;j--){
+                    System.out.print("o");
+                }
+                System.out.printf("%n");
+            }
         
         }
         
