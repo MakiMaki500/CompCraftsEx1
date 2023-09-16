@@ -94,7 +94,24 @@ public class CompCraftsEx1 {
         //rectangle with border
         else if(choice.equalsIgnoreCase("d")){
         
-            //put answer here
+            System.out.println("Enter the number of rows: ");
+            int altRectRow = Integer.parseInt(sc.nextLine());
+            System.out.println("Enter the number of columns: ");
+            int altRectCol = Integer.parseInt(sc.nextLine());
+            
+            for(int i=1;i<=altRectRow;i++){
+                for(int j=1;j<=altRectCol;j++){
+                    if((i>1)&&(i<altRectRow)){
+                        if((j>1)&&(j<altRectCol)){
+                            System.out.print("O");
+                        } else {
+                            System.out.print("1");  
+                        }
+                    } else
+                        System.out.print("1");
+                }
+                System.out.print("\n");
+            }
             
         }
         
